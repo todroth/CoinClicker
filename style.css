@@ -1,0 +1,89 @@
+html, body {
+    height : 100%;
+    width : 100%;
+    padding : 0;
+    margin : 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight : 700;
+}
+
+.page {
+    width : 100%;
+    height : 100%;
+}
+
+.tile {
+    display : table;
+    table-layout : fixed;
+    position : relative;
+}
+
+.small {
+    width : 25%;
+    height : 25%;
+    float : left;
+}
+
+.center {
+    width : 50%;
+    height : 50%;
+    position: absolute;
+    top : 25%;
+    left : 25%;
+}
+
+.text-row {
+    display : table-row;
+}
+
+.text {
+    display : table-cell;
+    vertical-align : middle;
+    text-align : center;
+    overflow : hidden;
+    text-overflow : clip;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.small {
+    font-size : 2vh;
+}
+
+.normal {
+    font-size : 3vh;
+}
+
+.huge {
+    font-size : 5vw;
+}
+
+.clickable {
+    cursor : pointer;
+}
+
+.available {
+    color : white;
+}
+
+.unavailable {
+    color : #bdc3c7;
+}
+
+#one { background : #26C281; }
+#two { background : #049372; }
+#three { background : #1E824C; }
+#four { background : #00B16A; }
+#five { background : #2ABB9B; }
+#six { background : #4DAF7C; }
+#seven { background : #03A678; }
+#eight { background : #019875; }
+#nine { background : #3FC380; }
+#ten { background : #16A085; }
+#eleven { background : #2ECC71; }
+#twelve { background : #87D37C; }
+#center { background : #86E2D5; }
